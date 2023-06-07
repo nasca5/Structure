@@ -1,2 +1,0 @@
-CDLL.o: CDLL.c CDLL.h
-CDLL.h:
