@@ -3,7 +3,8 @@
 
 #include "Calculator.h"
 
-int main() {
+int main()
+{
   char InFixExpression[100];
   char PostFixExpression[100];
 
@@ -11,7 +12,8 @@ int main() {
 
   memset(InFixExpression, 0, sizeof(InFixExpression));
   memset(PostFixExpression, 0, sizeof(PostFixExpression));
-  
+
+  printf("%d\n", OPERAND);
   printf("Enter InFix Expression : ");
   scanf("%[^\n]s", InFixExpression);
 
